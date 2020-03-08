@@ -2,9 +2,10 @@
 
 @section('content')
     <h1>Home</h1>
+    <p></p>
     @endsection
 
 @section('sidebar')
     @parent
-    This is appended to the sidebar
-    @endsection
+    <p>This is appended to the sidebar</p>
+@endsection
