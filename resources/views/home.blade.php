@@ -1,8 +1,14 @@
 @extends('layouts.app')
 
+@if(session('success'))
+    <div class="alert alert-success">
+        {{ session('success') }}
+    </div>
+    @endif
+
 @section('content')
     <h1>Home</h1>
-    <p></p>
+    <p>something something</p>
     @endsection
 
 @section('sidebar')
